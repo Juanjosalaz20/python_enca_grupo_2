@@ -13,19 +13,13 @@ List_2 = [5,6,7,8,9,10]
 key = 1234
 Intentos=1
 
-intento_key = int(input('Ingrese su clave'))
+intento_key = int(input('Ingrese su clave: '))
 
-# while intento_key != key:
-#     intento_key=int(input('clave incorrecta, intente de nuevo'))
-#     Intentos += 1
-#     if Intentos == 3:
-#         print('Su usuario ha sido bloqueado')
-#         break
-
-while Intentos < 2
-    while intento_key != key:
-    intento_key=int(input('clave incorrecta, intente de nuevo'))
-    Intentos += 1
-    if Intentos == 3:
-        print('Su usuario ha sido bloqueado')
-        break
+while intento_key != key:
+     intento_key=int(input('Clave incorrecta, intente de nuevo: '))
+     Intentos += 1
+     if Intentos == 3:
+         print('Su usuario ha sido bloqueado')
+         break
+else:
+     print('Ingreso exitoso')
