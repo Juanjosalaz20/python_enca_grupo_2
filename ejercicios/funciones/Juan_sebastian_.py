@@ -12,6 +12,3 @@ def invertir_diccionario():
     return new_dic
 
 print(invertir_diccionario())
-
-
-
